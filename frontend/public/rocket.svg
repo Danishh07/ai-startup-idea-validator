@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="rocketGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Rocket body -->
+  <ellipse cx="50" cy="60" rx="12" ry="25" fill="url(#rocketGradient)" />
+  
+  <!-- Rocket tip -->
+  <polygon points="50,15 38,35 62,35" fill="#4f46e5" />
+  
+  <!-- Rocket fins -->
+  <polygon points="38,70 32,85 38,85" fill="#3730a3" />
+  <polygon points="62,70 68,85 62,85" fill="#3730a3" />
+  
+  <!-- Rocket window -->
+  <circle cx="50" cy="45" r="4" fill="#ddd6fe" />
+  
+  <!-- Flames -->
+  <ellipse cx="50" cy="85" rx="8" ry="6" fill="#f59e0b" />
+  <ellipse cx="50" cy="88" rx="5" ry="4" fill="#dc2626" />
+</svg>
