@@ -1,19 +1,20 @@
-# 🚀 Startup Idea Validator
+# 🚀 AI Startup Idea Validator
 
 An AI-powered web application that helps entrepreneurs validate their startup ideas by providing structured business analysis using advanced language models.
 
-## 🎯 Features
+![Startup Idea Validator](https://iili.io/Fs6fiTg.png)
 
-- **AI-Powered Analysis**: Uses cloud-based LLMs (Together.ai or Groq) for intelligent startup idea evaluation
+## ✨ Features
+
+- **AI-Powered Analysis**: Uses cloud-based LLMs (Together.ai) for intelligent startup idea evaluation
 - **Comprehensive Metrics**: 
   - Feasibility Score (0-100)
   - Target Audience Analysis
   - Competitor Identification
-  - Monetization Strategies
+  - Potential Monetization Strategies
   - Tech Stack Suggestions
 - **PDF Export**: Export analysis results to professionally formatted PDF documents
 - **Modern UI**: Clean, responsive design with real-time feedback
-- **Cloud-Ready**: Optimized for deployment on Vercel (frontend) and Render (backend)
 
 ## 🛠️ Tech Stack
 
@@ -22,13 +23,14 @@ An AI-powered web application that helps entrepreneurs validate their startup id
 - **Vite** for fast development and building
 - **Axios** for API communication
 - **Modern CSS** with responsive design
-- **Component-based architecture**
 
 ### Backend
-- **Node.js** with Express.js
-- **Together.ai** API integration
-- **CORS** enabled for cross-origin requests
-- **Environment-based configuration**
+- **Node.js**
+- **Express.js**
+- **REST API**
+
+### AI / Services
+- ***Together.ai API***
 
 ## 📦 Project Structure
 
@@ -205,14 +207,6 @@ For production deployment, set the environment variable in your hosting platform
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 🙏 Acknowledgments
-
-- [Together.ai](https://together.ai/) for providing accessible AI models
-- [React](https://reactjs.org/) for the frontend framework
-- [Vite](https://vitejs.dev/) for fast development tooling
-- [TypeScript](https://www.typescriptlang.org/) for type safety
-- [Express.js](https://expressjs.com/) for the backend framework
-
----
+###
 
 **Happy validating! 🚀**
